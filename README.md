@@ -1,3 +1,7 @@
+Birthday Website designed using HTML and CSS with images/gifs found online. 
+
+Deployed on Netlify: https://stellular-narwhal-3e2148.netlify.app/
+
 # Getting Started
 Install the dependencies and run the project
 ```
