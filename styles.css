@@ -1,0 +1,101 @@
+
+#header {
+    font-family: "MedievalSharp", serif;
+    color: #faa307;
+}
+
+body {
+    text-align: center;
+    font-family: "MedievalSharp", serif;
+    background: linear-gradient(#000814, #343a40);
+    color: #ffba08;
+
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #ffba08;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #01161e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #01161e;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-covering.png");
+    background-size: cover;
+}
+
+#gift-img-party:hover {
+    background-image: url("medieval.party.gif");
+}
+
+#gift-img-musician:hover {
+    background-image: url("donkey.music.gif");
+}
+
+#gift-img-fish:hover {
+    background-image: url("magic.fish.gif");
+}
+
+#gift-img-intermission:hover {
+    background-image: url("final.duel.gif");
+}
+
+#gift-img-treasure:hover {
+    background-image: url("super.dragon.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color:#01161e;
+}
+
+a {
+    color: white;
+}
